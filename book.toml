@@ -1,0 +1,6 @@
+[book]
+authors = ["james-tharit"]
+language = "en"
+multilingual = false
+src = "src"
+title = "SecConsult"
