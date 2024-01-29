@@ -1,6 +1,6 @@
 # Summary
 
 - [Introduction](./README.md)
-- [Safeguarding the Code](./dev-practices/README.md)
-  - [Git Setup Checklist](./dev-practices/git-setup.md)
-  - [Multiple Git configs Setup](./dev-practices/git-multiple-config.md)
+- [Safeguarding local development](./saveguarding-development/README.md)
+  - [Git Setup Checklist](./saveguarding-development/git-setup.md)
+  - [Manage two different git accounts in same computer](./saveguarding-development/git-multiple-config.md)
