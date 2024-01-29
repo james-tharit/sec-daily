@@ -1,5 +1,6 @@
 # Summary
 
 - [Introduction](./README.md)
-- [Git Configuration](./gitConfigs/README.md)
-  - [Multiple Git configs Setup](./gitConfigs/multiple-config.md)
+- [Safeguarding the Code](./dev-practices/README.md)
+  - [Git Setup Checklist](./dev-practices/git-setup.md)
+  - [Multiple Git configs Setup](./dev-practices/git-multiple-config.md)
