@@ -25,14 +25,16 @@ sequenceDiagram
 
 ```
 
-However, several questions arise, such as:
+### However, several questions arise, such as:
 
 - How does the Live Share server gather information to generate a unique session link?
 - Is peer-to-peer connection still going to work if there are NAT or Firewall in the middle?
 - What authentication method is employed between the Guest and Host during a Live Share session?
 - How is the wire connection secured?
 
-I have conducted further research on these inquiries, and let's explore them together.
+#### I have conducted further research on these inquiries, and let's explore them together.
+
+...
 
 ## What actually happening during the Peer Authentication
 
@@ -66,6 +68,8 @@ sequenceDiagram
     Note over LiveShare: Real-time collaboration begins
 ```
 
+### Steps explanation
+
 1. **Host Initiates Live Share Session**:
    The Host initiates a Live Share session with peer authentication.
 2. **RSA Key-Pair Generation**:
@@ -80,8 +84,20 @@ sequenceDiagram
 6. **Guest Authentication with Live Share**:
    The Guest authenticates with the Live Share service, obtaining a Live Share token (signed JWT) as a result.
 7. **Guest Opens Invitation Link**:
-   The Guest opens the invitation link, initiating the connection process.
+   The Guest opens the invitation link, initiating the connection process
 8. **Host Validates Token**:
    The Host validates the Live Share token received from the Guest, checking its claims, including user identity and session access permissions.
 9. **Establishment of Secure Connection**:
    Upon successful validation, the Host and Guest establish a secure connection, marking the beginning of real-time collaboration through Live Share.
+
+### What's about wire encryption?
+
+After initiate the session with RAS Key-Pair, Host and Guest uses a Diffie-Hellman key-exchange to establish a shared secret for the session, and derives from that a key for **AES symmetric encryption**.
+
+The encryption key is rotated periodically throughout the duration of the session. The shared session secret and all encryption keys are only maintained in-memory by both sides, and are only valid for the duration of the session. They are never written to disk or sent to any service (including Live Share).
+
+..
+
+---
+
+Reference: [VS Code Live Share Security Document](https://learn.microsoft.com/en-us/visualstudio/liveshare/reference/security)

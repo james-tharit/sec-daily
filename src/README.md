@@ -10,4 +10,5 @@ In this blog, I'll chat about my day-to-day job – from analysis, how secure th
 
 ## Content Guide:
 
-1. [Safeguarding your local development](./safeguarding-development)
+1. [Security Principles](./sec-principles)
+2. [Safeguarding your local development](./safeguarding-development)
