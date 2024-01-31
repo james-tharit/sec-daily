@@ -2,7 +2,7 @@
 
 The CIA triad is a **model** that helps inform how we consider risk when setting up system and security policies.
 
-![CIA Triad](./images/cia-traid.png)
+![CIA Triad](../images/cia-traid.png)
 
 CIA are the three foundational principles used by cybersecurity professionals to establish appropriate controls that mitigate threats, risks, and vulnerabilities.
 
