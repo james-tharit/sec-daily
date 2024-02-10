@@ -12,3 +12,4 @@ In this blog, I'll chat about my day-to-day job – from analysis, how secure th
 
 1. [Security Principles](./sec-principles)
 2. [Safeguarding your local development](./safeguarding-development)
+3. [Others analysis & assessment](./others)
