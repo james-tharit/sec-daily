@@ -3,7 +3,7 @@ authors = ["james-tharit"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Sec Consult"
+title = "Sec Daily"
 
 [preprocessor]
 
@@ -14,4 +14,4 @@ command = "mdbook-mermaid"
 
 [output.html]
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
-site-url = "/sec-consult/"
+site-url = "/sec-daily/"

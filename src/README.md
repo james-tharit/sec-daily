@@ -1,6 +1,6 @@
 # Introduction
 
-Hey there! Welcome to my blog, "Sec Consult." I'm here to share my adventures as a security consultant in a consultancy firm. Let's dive into the world of cybersecurity together, where I'll spill the beans on what it's really like to keep digital stuff safe and sound.
+Hey there! Welcome to my blog, "Sec Daily." I'm here to share my adventures as a security consultant in a consultancy firm. Let's dive into the world of cybersecurity together, where I'll spill the beans on what it's really like to keep digital stuff safe and sound.
 
 I want this blog to be helpful for everyone – whether you're a pro in cybersecurity or just starting out. So, we'll cover everything from the basics of staying safe online to dealing with fancy computer attacks.
 

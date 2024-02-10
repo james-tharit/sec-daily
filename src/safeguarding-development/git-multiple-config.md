@@ -1,6 +1,6 @@
 # Managing Multiple Git Accounts on the Same Computer
 
-When working as a consultant on the same computer, you might have two different git accounts—one for your consulting firm and another for your client. It's important to keep these separate to prevent any accidental sharing of client data. One way to achieve this is by using conditional includes in your git configuration.
+When working on the same work station, you might have two different git accounts—one for your personal stuff and another for your client. It's important to keep these separate to prevent any accidental sharing of client data. One way to achieve this is by using conditional includes in your git configuration.
 
 ## Here's how you can set it up:
 
