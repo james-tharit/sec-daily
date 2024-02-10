@@ -1,42 +1,10 @@
-# Security of VS Code Live share
+# Analysis of VS Code Live share
 
 ## What is VS Code Live Share?
 
 VS Code Live Share is a collaborative development tool that enables real-time code sharing and editing among multiple developers. It allows users to work together on the same codebase, with each participant able to see and edit the code simultaneously. Live Share also supports features like debugging and terminal sharing, fostering a seamless collaborative coding experience within the Visual Studio Code editor. It's particularly useful for pair programming and remote collaboration.
 
-## What we can see (assume) that it's happen when we using live share
-
-```mermaid
-sequenceDiagram
-    participant Host
-    participant LiveShare
-    participant Guest
-
-    Host->>LiveShare: Initiates Live Share session
-    LiveShare->>LiveShare: Generates unique session link
-    LiveShare-->>Host: Provides session link
-
-    Host->>Guest: Shares session link
-    Guest->>Host: Joins Live Share session using link
-
-    Host-->>Guest: Establishes connection
-
-    Note over LiveShare: Real-time collaboration begins
-
-```
-
-### However, several questions arise, such as:
-
-- How does the Live Share server gather information to generate a unique session link?
-- Is peer-to-peer connection still going to work if there are NAT or Firewall in the middle?
-- What authentication method is employed between the Guest and Host during a Live Share session?
-- How is the wire connection secured?
-
-#### I have conducted further research on these inquiries, and let's explore them together.
-
-...
-
-## What actually happening during the Peer Authentication
+## What happening during the Peer Authentication
 
 ```mermaid
 sequenceDiagram
