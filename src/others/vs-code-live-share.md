@@ -68,4 +68,6 @@ The encryption key is rotated periodically throughout the duration of the sessio
 
 ---
 
-Reference: [VS Code Live Share Security Document](https://learn.microsoft.com/en-us/visualstudio/liveshare/reference/security)
+Reference:
+
+- [VS Code Live Share Security Document](https://learn.microsoft.com/en-us/visualstudio/liveshare/reference/security)

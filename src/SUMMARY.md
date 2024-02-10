@@ -10,3 +10,4 @@
 - [Web Application Security](./web-application-security/README.md)
 - [Others analysis & assessment](./others/README.md)
   - [Security of VS Code Live share](./others/vs-code-live-share.md)
+  - [High vulnerabilities in Curl and Libcurl](./others/curl-and-libcurl.md)
